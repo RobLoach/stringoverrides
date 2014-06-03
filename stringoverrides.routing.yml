@@ -1,0 +1,7 @@
+stringoverrides.admin:
+  path: '/admin/config/regional/stringoverrides'
+  defaults:
+    _content: '\Drupal\stringoverrides\Controller\StringOverridesController::adminOverview'
+    _title: 'String Overrides'
+  requirements:
+    _permission: 'administer string overrides'
